@@ -198,7 +198,7 @@ namespace LibMS
         private void btnReturn_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
-            //OpenChildForm(new Forms.BookReturnedForm());
+            OpenChildForm(new Forms.BookReturnedForm());
         }
 
         private void btnLogout_Click(object sender, EventArgs e)

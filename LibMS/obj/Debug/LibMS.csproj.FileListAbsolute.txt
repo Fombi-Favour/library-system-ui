@@ -45,3 +45,7 @@ C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.Add
 C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.BookIssueForm.resources
 C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.AddIssueForm.fr.resources
 C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.BookIssueForm.fr.resources
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.BookReturnedForm.resources
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.AddReturnForm.resources
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.AddReturnForm.fr.resources
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.BookReturnedForm.fr.resources
