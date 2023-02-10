@@ -185,7 +185,7 @@ namespace LibMS
         private void btnBooks_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
-            //OpenChildForm(new Forms.BookForm());
+            OpenChildForm(new Forms.BookForm());
         }
 
         private void btnIssue_Click(object sender, EventArgs e)
