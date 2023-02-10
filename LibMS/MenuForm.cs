@@ -162,7 +162,8 @@ namespace LibMS
 
         private void btnMax_Click(object sender, EventArgs e)
         {
-            WindowState = FormWindowState.Maximized;
+            if(WindowState == FormWindowState.Normal) { WindowState = FormWindowState.Maximized; }
+            else { WindowState = FormWindowState.Normal; }
         }
 
         private void btnMin_Click(object sender, EventArgs e)
@@ -191,7 +192,7 @@ namespace LibMS
         private void btnIssue_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
-            //OpenChildForm(new Forms.BookIssueForm());
+            OpenChildForm(new Forms.BookIssueForm());
         }
 
         private void btnReturn_Click(object sender, EventArgs e)

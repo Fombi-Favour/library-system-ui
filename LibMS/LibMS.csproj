@@ -71,11 +71,23 @@
     <Compile Include="Forms\AddBookForm.Designer.cs">
       <DependentUpon>AddBookForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AddIssueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddIssueForm.Designer.cs">
+      <DependentUpon>AddIssueForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\BookForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\BookForm.Designer.cs">
       <DependentUpon>BookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BookIssueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BookIssueForm.Designer.cs">
+      <DependentUpon>BookIssueForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\DashboardForm.cs">
       <SubType>Form</SubType>
@@ -139,11 +151,23 @@
     <EmbeddedResource Include="Forms\AddBookForm.resx">
       <DependentUpon>AddBookForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddIssueForm.fr.resx">
+      <DependentUpon>AddIssueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddIssueForm.resx">
+      <DependentUpon>AddIssueForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\BookForm.fr.resx">
       <DependentUpon>BookForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BookForm.resx">
       <DependentUpon>BookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookIssueForm.fr.resx">
+      <DependentUpon>BookIssueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookIssueForm.resx">
+      <DependentUpon>BookIssueForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\DashboardForm.fr.resx">
       <DependentUpon>DashboardForm.cs</DependentUpon>
