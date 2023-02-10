@@ -51,45 +51,49 @@
             // 
             // btnShow
             // 
-            resources.ApplyResources(this.btnShow, "btnShow");
             this.btnShow.BackColor = System.Drawing.Color.Silver;
             this.btnShow.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.btnShow, "btnShow");
             this.btnShow.Name = "btnShow";
             this.btnShow.UseVisualStyleBackColor = false;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // btnHide
             // 
-            resources.ApplyResources(this.btnHide, "btnHide");
             this.btnHide.BackColor = System.Drawing.Color.Silver;
             this.btnHide.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.btnHide, "btnHide");
             this.btnHide.Name = "btnHide";
             this.btnHide.UseVisualStyleBackColor = false;
+            this.btnHide.Click += new System.EventHandler(this.btnHide_Click);
             // 
             // linkLblLog
             // 
-            resources.ApplyResources(this.linkLblLog, "linkLblLog");
             this.linkLblLog.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            resources.ApplyResources(this.linkLblLog, "linkLblLog");
             this.linkLblLog.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLblLog.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(235)))), ((int)(((byte)(195)))));
             this.linkLblLog.Name = "linkLblLog";
             this.linkLblLog.TabStop = true;
             this.linkLblLog.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(115)))), ((int)(((byte)(235)))));
+            this.linkLblLog.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblLog_LinkClicked);
             // 
             // btnMinimise
             // 
             resources.ApplyResources(this.btnMinimise, "btnMinimise");
             this.btnMinimise.Name = "btnMinimise";
             this.btnMinimise.TabStop = false;
+            this.btnMinimise.Click += new System.EventHandler(this.btnMinimise_Click);
             // 
             // btnClose
             // 
             resources.ApplyResources(this.btnClose, "btnClose");
             this.btnClose.Name = "btnClose";
             this.btnClose.TabStop = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnRegister
             // 
-            resources.ApplyResources(this.btnRegister, "btnRegister");
             this.btnRegister.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.btnRegister.BorderRadius = 20;
             this.btnRegister.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -97,8 +101,10 @@
             this.btnRegister.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnRegister.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnRegister.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(182)))));
+            resources.ApplyResources(this.btnRegister, "btnRegister");
             this.btnRegister.ForeColor = System.Drawing.Color.White;
             this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // label6
             // 
@@ -108,7 +114,6 @@
             // 
             // txtsch
             // 
-            resources.ApplyResources(this.txtsch, "txtsch");
             this.txtsch.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.txtsch.BorderRadius = 12;
             this.txtsch.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -119,6 +124,7 @@
             this.txtsch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtsch.FillColor = System.Drawing.Color.Silver;
             this.txtsch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.txtsch, "txtsch");
             this.txtsch.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtsch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtsch.Name = "txtsch";
@@ -134,7 +140,6 @@
             // 
             // txtuser
             // 
-            resources.ApplyResources(this.txtuser, "txtuser");
             this.txtuser.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.txtuser.BorderRadius = 12;
             this.txtuser.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -145,6 +150,7 @@
             this.txtuser.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtuser.FillColor = System.Drawing.Color.Silver;
             this.txtuser.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.txtuser, "txtuser");
             this.txtuser.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtuser.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtuser.Name = "txtuser";
@@ -160,7 +166,6 @@
             // 
             // txtpass
             // 
-            resources.ApplyResources(this.txtpass, "txtpass");
             this.txtpass.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.txtpass.BorderRadius = 12;
             this.txtpass.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -171,6 +176,7 @@
             this.txtpass.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtpass.FillColor = System.Drawing.Color.Silver;
             this.txtpass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.txtpass, "txtpass");
             this.txtpass.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtpass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtpass.Name = "txtpass";
@@ -218,6 +224,7 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RegisterForm";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RegisterForm_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimise)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

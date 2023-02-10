@@ -19,3 +19,13 @@ C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\fr\LibMS.resour
 C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.csproj.CopyComplete
 C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.exe
 C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.pdb
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\bin\Debug\Common.dll
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\bin\Debug\Domain.dll
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\bin\Debug\DataAccess.dll
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\bin\Debug\Common.pdb
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\bin\Debug\Domain.pdb
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\bin\Debug\DataAccess.pdb
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.MessageBoxForm.resources
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.RegisterForm.resources
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.LoginForm.fr.resources
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.RegisterForm.fr.resources

@@ -54,6 +54,7 @@
             this.panel1.Controls.Add(this.pictureBox1);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // pictureBox1
             // 
@@ -69,6 +70,7 @@
             resources.ApplyResources(this.btnShow, "btnShow");
             this.btnShow.Name = "btnShow";
             this.btnShow.UseVisualStyleBackColor = false;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // btnHide
             // 
@@ -77,6 +79,7 @@
             resources.ApplyResources(this.btnHide, "btnHide");
             this.btnHide.Name = "btnHide";
             this.btnHide.UseVisualStyleBackColor = false;
+            this.btnHide.Click += new System.EventHandler(this.btnHide_Click);
             // 
             // linkLblReg
             // 
@@ -87,18 +90,21 @@
             this.linkLblReg.Name = "linkLblReg";
             this.linkLblReg.TabStop = true;
             this.linkLblReg.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(115)))), ((int)(((byte)(235)))));
+            this.linkLblReg.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblReg_LinkClicked);
             // 
             // btnmin
             // 
             resources.ApplyResources(this.btnmin, "btnmin");
             this.btnmin.Name = "btnmin";
             this.btnmin.TabStop = false;
+            this.btnmin.Click += new System.EventHandler(this.btnmin_Click);
             // 
             // btnclose
             // 
             resources.ApplyResources(this.btnclose, "btnclose");
             this.btnclose.Name = "btnclose";
             this.btnclose.TabStop = false;
+            this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
             // 
             // btnlogin
             // 
@@ -112,6 +118,7 @@
             resources.ApplyResources(this.btnlogin, "btnlogin");
             this.btnlogin.ForeColor = System.Drawing.Color.White;
             this.btnlogin.Name = "btnlogin";
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // label3
             // 
