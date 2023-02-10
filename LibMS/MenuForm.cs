@@ -179,7 +179,7 @@ namespace LibMS
         private void btnDashboard_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
-            //OpenChildForm(new Forms.DashboardForm());
+            OpenChildForm(new Forms.DashboardForm());
         }
 
         private void btnBooks_Click(object sender, EventArgs e)
