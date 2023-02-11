@@ -46,10 +46,10 @@
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.label1);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // pictureBox2
@@ -66,10 +66,10 @@
             // 
             // circularProgressBar1
             // 
-            resources.ApplyResources(this.circularProgressBar1, "circularProgressBar1");
             this.circularProgressBar1.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
             this.circularProgressBar1.AnimationSpeed = 500;
             this.circularProgressBar1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.circularProgressBar1, "circularProgressBar1");
             this.circularProgressBar1.ForeColor = System.Drawing.Color.Silver;
             this.circularProgressBar1.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
             this.circularProgressBar1.InnerMargin = 2;

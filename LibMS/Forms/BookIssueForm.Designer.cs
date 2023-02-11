@@ -44,9 +44,9 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.btnSearch = new System.Windows.Forms.PictureBox();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnNew = new Guna.UI2.WinForms.Guna2Button();
-            this.btnSearch = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GVlist1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSearch)).BeginInit();
@@ -187,6 +187,14 @@
             this.Column7.Text = "Delete/Suprimer";
             this.Column7.UseColumnTextForButtonValue = true;
             // 
+            // btnSearch
+            // 
+            resources.ApplyResources(this.btnSearch, "btnSearch");
+            this.btnSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnSearch.Image = global::LibMS.Properties.Resources.icons8_search_32;
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.TabStop = false;
+            // 
             // txtSearch
             // 
             resources.ApplyResources(this.txtSearch, "txtSearch");
@@ -219,14 +227,6 @@
             this.btnNew.ForeColor = System.Drawing.Color.White;
             this.btnNew.Name = "btnNew";
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
-            // 
-            // btnSearch
-            // 
-            resources.ApplyResources(this.btnSearch, "btnSearch");
-            this.btnSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.btnSearch.Image = global::LibMS.Properties.Resources.icons8_search_32;
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.TabStop = false;
             // 
             // BookIssueForm
             // 

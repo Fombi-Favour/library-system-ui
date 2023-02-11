@@ -117,6 +117,7 @@ namespace LibMS.Forms
                     var result = ActivateMessageBox.Show("Are you sure to delete?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     if (result == DialogResult.Yes)
                     {
+                        form.UpdateQuantityCancelled();
                         form.DeleteIssue(GVlist1.Rows[e.RowIndex].Cells[2].Value.ToString());
                         Display();
                     }

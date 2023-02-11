@@ -55,8 +55,8 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnSearch = new System.Windows.Forms.PictureBox();
+            this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GVlist3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GVlist2)).BeginInit();
@@ -294,6 +294,13 @@
             this.Column8.Name = "Column8";
             this.Column8.ReadOnly = true;
             // 
+            // btnSearch
+            // 
+            resources.ApplyResources(this.btnSearch, "btnSearch");
+            this.btnSearch.Image = global::LibMS.Properties.Resources.icons8_search_32;
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.TabStop = false;
+            // 
             // txtSearch
             // 
             resources.ApplyResources(this.txtSearch, "txtSearch");
@@ -314,13 +321,6 @@
             this.txtSearch.PlaceholderText = "Search";
             this.txtSearch.SelectedText = "";
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
-            // 
-            // btnSearch
-            // 
-            resources.ApplyResources(this.btnSearch, "btnSearch");
-            this.btnSearch.Image = global::LibMS.Properties.Resources.icons8_search_32;
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.TabStop = false;
             // 
             // BookReturnedForm
             // 
