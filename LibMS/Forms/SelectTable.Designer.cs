@@ -49,6 +49,7 @@
             resources.ApplyResources(this.btnReturn, "btnReturn");
             this.btnReturn.ForeColor = System.Drawing.Color.White;
             this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // btnIssue
             // 
@@ -59,6 +60,7 @@
             resources.ApplyResources(this.btnIssue, "btnIssue");
             this.btnIssue.ForeColor = System.Drawing.Color.White;
             this.btnIssue.Name = "btnIssue";
+            this.btnIssue.Click += new System.EventHandler(this.btnIssue_Click);
             // 
             // btnBook
             // 
@@ -69,6 +71,7 @@
             resources.ApplyResources(this.btnBook, "btnBook");
             this.btnBook.ForeColor = System.Drawing.Color.White;
             this.btnBook.Name = "btnBook";
+            this.btnBook.Click += new System.EventHandler(this.btnBook_Click);
             // 
             // label1
             // 
@@ -118,6 +121,8 @@
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SelectTable";
+            this.Load += new System.EventHandler(this.SelectTable_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SelectTable_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>LiBMS.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
       <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
@@ -107,6 +110,24 @@
     <Compile Include="Forms\DashboardForm.Designer.cs">
       <DependentUpon>DashboardForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\PrintBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrintBook.Designer.cs">
+      <DependentUpon>PrintBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PrintIssue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrintIssue.Designer.cs">
+      <DependentUpon>PrintIssue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PrintReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrintReturn.Designer.cs">
+      <DependentUpon>PrintReturn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\SelectTable.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +163,11 @@
     </Compile>
     <Compile Include="MessageBoxForm.Designer.cs">
       <DependentUpon>MessageBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyLibraryDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyLibraryDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -205,6 +231,24 @@
     <EmbeddedResource Include="Forms\DashboardForm.resx">
       <DependentUpon>DashboardForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintBook.fr.resx">
+      <DependentUpon>PrintBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintBook.resx">
+      <DependentUpon>PrintBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintIssue.fr.resx">
+      <DependentUpon>PrintIssue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintIssue.resx">
+      <DependentUpon>PrintIssue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintReturn.fr.resx">
+      <DependentUpon>PrintReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintReturn.resx">
+      <DependentUpon>PrintReturn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\SelectTable.fr.resx">
       <DependentUpon>SelectTable.cs</DependentUpon>
     </EmbeddedResource>
@@ -257,6 +301,17 @@
     <EmbeddedResource Include="WelcomeForm.resx">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="MyLibraryDataSet.xsc">
+      <DependentUpon>MyLibraryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MyLibraryDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyLibraryDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyLibraryDataSet.xss">
+      <DependentUpon>MyLibraryDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -301,6 +356,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_search_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LiBMS.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
