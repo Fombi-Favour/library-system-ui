@@ -223,5 +223,11 @@ namespace LibMS
                 }
             }
         }
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color6);
+            new Forms.DeleteAllForm().Show();
+        }
     }
 }

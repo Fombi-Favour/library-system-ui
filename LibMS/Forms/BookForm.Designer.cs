@@ -168,6 +168,7 @@
             // btnSearch
             // 
             resources.ApplyResources(this.btnSearch, "btnSearch");
+            this.btnSearch.Image = global::LibMS.Properties.Resources.icons8_search_32;
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.TabStop = false;
             // 

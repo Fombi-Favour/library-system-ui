@@ -152,7 +152,7 @@
             // BookidCb
             // 
             this.BookidCb.BackColor = System.Drawing.Color.Transparent;
-            this.BookidCb.BorderRadius = 12;
+            this.BookidCb.BorderRadius = 18;
             this.BookidCb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.BookidCb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.BookidCb.FillColor = System.Drawing.SystemColors.ScrollBar;

@@ -57,3 +57,5 @@ C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.Pri
 C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.PrintBook.fr.resources
 C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.PrintIssue.fr.resources
 C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.PrintReturn.fr.resources
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.DeleteAllForm.resources
+C:\Users\HeroidesLab\Documents\Work\LibMS System\LibMS\obj\Debug\LibMS.Forms.DeleteAllForm.fr.resources

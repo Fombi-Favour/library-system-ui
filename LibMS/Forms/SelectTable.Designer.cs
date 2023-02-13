@@ -42,33 +42,33 @@
             // 
             // btnReturn
             // 
+            resources.ApplyResources(this.btnReturn, "btnReturn");
             this.btnReturn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnReturn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnReturn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnReturn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            resources.ApplyResources(this.btnReturn, "btnReturn");
             this.btnReturn.ForeColor = System.Drawing.Color.White;
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // btnIssue
             // 
+            resources.ApplyResources(this.btnIssue, "btnIssue");
             this.btnIssue.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnIssue.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnIssue.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnIssue.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            resources.ApplyResources(this.btnIssue, "btnIssue");
             this.btnIssue.ForeColor = System.Drawing.Color.White;
             this.btnIssue.Name = "btnIssue";
             this.btnIssue.Click += new System.EventHandler(this.btnIssue_Click);
             // 
             // btnBook
             // 
+            resources.ApplyResources(this.btnBook, "btnBook");
             this.btnBook.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnBook.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnBook.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnBook.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            resources.ApplyResources(this.btnBook, "btnBook");
             this.btnBook.ForeColor = System.Drawing.Color.White;
             this.btnBook.Name = "btnBook";
             this.btnBook.Click += new System.EventHandler(this.btnBook_Click);
@@ -81,9 +81,9 @@
             // 
             // btnClose
             // 
+            resources.ApplyResources(this.btnClose, "btnClose");
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(79)))), ((int)(((byte)(95)))));
-            resources.ApplyResources(this.btnClose, "btnClose");
             this.btnClose.ForeColor = System.Drawing.Color.Black;
             this.btnClose.Name = "btnClose";
             this.btnClose.UseVisualStyleBackColor = false;
