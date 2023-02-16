@@ -146,6 +146,11 @@
     <Compile Include="LanguageForm.Designer.cs">
       <DependentUpon>LanguageForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="LibraryDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LibraryDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="LoadingForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -308,6 +313,17 @@
     <EmbeddedResource Include="WelcomeForm.resx">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="LibraryDBDataSet.xsc">
+      <DependentUpon>LibraryDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LibraryDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LibraryDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LibraryDBDataSet.xss">
+      <DependentUpon>LibraryDBDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

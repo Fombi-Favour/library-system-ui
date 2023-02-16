@@ -29,7 +29,7 @@ namespace LibMS.Forms
         // Connection to sql
         public static SqlConnection GetConnection()
         {
-            string sql = "Data Source=DESKTOP-EJ5S83V\\SQLEXPRESS;Initial Catalog=MyLibrary;Integrated Security=True;";
+            string sql = "Data Source=DESKTOP-EJ5S83V\\SQLEXPRESS;Initial Catalog=LibraryDB;Integrated Security=True";
             SqlConnection conn = new SqlConnection(sql);
 
             return conn;

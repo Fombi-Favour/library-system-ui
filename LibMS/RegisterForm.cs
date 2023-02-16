@@ -16,7 +16,7 @@ namespace LibMS
     public partial class RegisterForm : Form
     {
         // Sql connection definition (manual work)
-        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-EJ5S83V\SQLEXPRESS;Initial Catalog=MyLibrary;Integrated Security=True;");
+        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-EJ5S83V\SQLEXPRESS;Initial Catalog=LibraryDB;Integrated Security=True");
         SqlCommand cmd;
         public RegisterForm()
         {

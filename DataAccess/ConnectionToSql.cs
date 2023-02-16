@@ -12,7 +12,7 @@ namespace DataAccess
         private readonly string connectionString;
         public ConnectionToSql()
         {
-            connectionString = "server=DESKTOP-EJ5S83V\\SQLEXPRESS;DataBase=MyLibrary; integrated security=true";
+            connectionString = "Data Source=DESKTOP-EJ5S83V\\SQLEXPRESS;Initial Catalog=LibraryDB;Integrated Security=True";
         }
         protected SqlConnection GetConnection()
         {
